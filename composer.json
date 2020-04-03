@@ -1,5 +1,5 @@
 {
-    "name": "wp2static/wp2static-addon-zip",
+    "name": "wp2static/wp2static-addon-static-form-converter",
     "description": "Zip deployment Add-on for WP2Static.",
     "homepage": "https://wp2static.com",
       "license": "UNLICENSE",
@@ -12,10 +12,10 @@
       ],
     "type": "wordpress-plugin",
     "support": {
-        "issues": "https://github.com/WP2Static/wp2static-addon-zip/issues",
+        "issues": "https://github.com/WP2Static/wp2static-addon-static-form-converter/issues",
         "forum": "https://wp2static.com/community",
         "docs": "https://wp2static.com/documentation",
-        "source": "https://github.com/WP2Static/wp2static-addon-zip"
+        "source": "https://github.com/WP2Static/wp2static-addon-static-form-converter"
     },
     "repositories": [
         {
@@ -37,13 +37,13 @@
     },
     "autoload": {
         "psr-4": {
-            "WP2StaticZip\\": "src/"
+            "WP2StaticStaticFormConverter\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
             "PHPStan\\WordPress\\": "tests/phpstan/",
-            "WP2StaticZip\\": "src/"
+            "WP2StaticStaticFormConverter\\": "src/"
         }
     },
     "config": {
